@@ -1,0 +1,56 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:crafting_table"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:enchanted_book",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": "Crafting Table Advancer"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  [
+                    {
+                      "keybind": "key.use",
+                      "color": "gray"
+                    },
+                    {
+                      "text": " on Crafting Table",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "to advance it",
+                    "color": "gray"
+                  }
+                ],
+                "replace": true
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{custom_crafting_project_book:1b}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

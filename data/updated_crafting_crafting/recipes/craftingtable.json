@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " B ",
+        "L L",
+        "RRR"
+    ],
+    "key": {
+        "B": {
+            "tag": "minecraft:buttons"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "L": {
+            "item": "minecraft:lightning_rod"
+        }
+    },
+  "result": {
+    "item": "minecraft:knowledge_book",
+    "count": 1
+  }
+}

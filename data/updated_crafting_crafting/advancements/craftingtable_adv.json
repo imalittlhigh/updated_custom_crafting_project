@@ -1,0 +1,13 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "updated_crafting_crafting:craftingtable"
+        }
+      }
+    },
+    "rewards": {
+        "function": "updated_crafting_crafting:crafted/craftingtable"
+    }
+}

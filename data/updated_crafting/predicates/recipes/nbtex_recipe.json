@@ -1,0 +1,12 @@
+{
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "block": {
+        "blocks": [
+          "minecraft:dropper"
+        ],
+        "nbt": "{Items:[{Slot:0b,id:\"minecraft:book\",tag:{CustomModelData:12345,custom.book:1b}}]}"
+      }
+    }
+  }
+  

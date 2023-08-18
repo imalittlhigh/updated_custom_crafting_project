@@ -1,0 +1,12 @@
+{
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "block": {
+        "blocks": [
+          "minecraft:dropper"
+        ],
+        "nbt": "{Items:[{Slot:0b,id:\"minecraft:cobblestone\"},{Slot:1b,id:\"minecraft:cobblestone\"},{Slot:2b,id:\"minecraft:cobblestone\"},{Slot:3b,id:\"minecraft:cobblestone\"},{Slot:4b,id:\"minecraft:cobblestone\"},{Slot:5b,id:\"minecraft:cobblestone\"},{Slot:6b,id:\"minecraft:cobblestone\"},{Slot:7b,id:\"minecraft:cobblestone\"},{Slot:8b,id:\"minecraft:cobblestone\"}]}"
+      }
+    }
+  }
+  

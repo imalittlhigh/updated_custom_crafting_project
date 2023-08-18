@@ -1,0 +1,35 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "minecraft:enchanted_book"
+                ],
+                "nbt": "{custom_crafting_project_book:1b}"
+              }
+            }
+          },
+          "location": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": [
+                    "minecraft:crafting_table"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "updated_crafting_crafting:advance/raytrace/main"
+    }
+  }
+  
